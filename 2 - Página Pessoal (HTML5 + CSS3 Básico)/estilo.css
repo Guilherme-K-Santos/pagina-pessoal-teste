@@ -1,0 +1,77 @@
+body {
+    background-image: url(imagens/fundo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+    font: 16px Arial, Helvetica, sans-serif;
+}
+
+#principal {
+    width: 900px
+}
+
+#banner {
+    width: 100%;
+}
+
+#menu {
+    background-color: rgb(228, 228, 228);
+    padding: 15px;
+    border: 2px solid rgb(255, 250, 95);
+    text-align: center;
+}
+
+.navegacao {
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(253, 245, 17);
+    -webkit-text-stroke: 1px black;
+    text-decoration: none;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#conteudo {
+    background-color: rgb(228, 228, 228);
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(253, 245, 17);
+    -webkit-text-stroke: 0.5px black;
+    padding: 5px;
+    font-size: 2em;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(208, 38, 0);
+    -webkit-text-stroke: 0.5px black;
+    padding: 5px;
+    font-size: 1em;
+}
+
+p {
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(36, 36, 36);
+    padding: 5px
+}
+
+.imagens {
+    width: 50%;
+    display: block;
+    margin: 0px auto;
+    border: 10px rgb(255, 255, 79) groove
+}
+
+#instagram {
+    text-decoration: none;
+    color: rgb(251, 0, 42);
+    font-weight: bold;
+}
+
+#rodape {
+    color:white;
+    text-align: center;
+}
